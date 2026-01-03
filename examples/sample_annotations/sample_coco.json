@@ -1,0 +1,35 @@
+{
+  "info": {
+    "description": "Sample placeholder COCO annotation for bone fracture detection",
+    "version": "1.0",
+    "year": 2024
+  },
+
+  "images": [
+    {
+      "id": 1,
+      "file_name": "example_xray.png",
+      "width": 512,
+      "height": 512
+    }
+  ],
+
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [150, 200, 80, 40],
+      "area": 3200,
+      "iscrowd": 0
+    }
+  ],
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "fracture",
+      "supercategory": "lesion"
+    }
+  ]
+}

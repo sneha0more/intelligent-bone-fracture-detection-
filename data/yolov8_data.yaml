@@ -1,0 +1,16 @@
+# YOLOv8 dataset configuration for bone fracture detection
+
+# Root path of your dataset (relative to repo root)
+path: ./data
+
+# Paths to train/val images, relative to `path` above.
+# You can change these to match how you store your real data locally.
+train: sample_processed/train/images
+val: sample_processed/val/images
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  - fracture
